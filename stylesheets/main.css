@@ -1,0 +1,44 @@
+/* Resets */
+/* Typography */
+/* Colors */
+/* Layouts */
+/* Block components */
+
+.logo{
+    width: 7rem;
+}
+/* Elements */
+.nav__icon-unit{
+    font-size: 1.5rem;
+}
+/* Modifiers */
+.banner--visibility{
+    display: none;
+}
+
+.follow--visibility{
+    display: none;
+}
+
+.submenu--visibility{
+    display: none;
+}
+
+.nav--tablet-desktop{
+    display: none;
+}
+
+/* Media queries/responsive design */
+@media only screen and (min-width: 768px){
+    .banner--visibility{
+        display: block;
+    }
+    .nav--mobile{
+        display: none;
+    }
+    .nav--tablet-desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
